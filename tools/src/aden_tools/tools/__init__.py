@@ -17,6 +17,8 @@ from typing import TYPE_CHECKING
 
 from fastmcp import FastMCP
 
+
+#office _tools
 from .office_tool.excel import register_tools as register_excel_generate
 
 from .office_tool.word import register_tools as register_word_generate
@@ -91,9 +93,6 @@ from .web_search_tool import register_tools as register_web_search
 # Web and PDF tools
 from .wikipedia_tool import register_tools as register_wikipedia
 from .office_tool.powerpoint import register_tools as register_powerpoint
-
-from .office_tool.excel import register_tools as register_excel_generate
-
 
 
 def register_all_tools(
